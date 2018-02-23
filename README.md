@@ -16,7 +16,7 @@ siad --modules cge
 Then run Sia Timestamp Dumper as follows:
 
 ```bash
-$ python ~/dump_blocks.py
+$ python dump.py
 block_height    unix_timestamp  iso_timestamp
      0  1433600000      2015-06-06T14:13:20Z
      1  1433626546      2015-06-06T21:35:46Z
@@ -35,7 +35,7 @@ block_height    unix_timestamp  iso_timestamp
 To dump only for a certain range, use the `--start` and `--end` flags:
 
 ```bash
-$ python ~/dump_blocks.py --start 1000 --end 1010
+$ python dump.py --start 1000 --end 1010
 block_height    unix_timestamp  iso_timestamp
   1000  1433716769      2015-06-07T22:39:29Z
   1001  1433716812      2015-06-07T22:40:12Z

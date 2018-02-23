@@ -49,3 +49,7 @@ block_height    unix_timestamp  iso_timestamp
   1009  1433717498      2015-06-07T22:51:38Z
   1010  1433717576      2015-06-07T22:52:56Z
 ```
+
+## Timestamp Dump
+
+This [gist](https://gist.github.com/mtlynch/8394e0be8d2de7097ab31cbea51559cd) contains a dump of Sia's block times from block `0` (2015-06-06) until block `143001` (2018-02-23).
